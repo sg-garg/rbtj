@@ -1,0 +1,1 @@
+<div align=center><img src=/backend/img.php?imgurl=<?php echo $_GET['imgurl'];?>&w=<?php echo $_GET['w'];?> width=<?php echo $_GET['w'];?>></div>

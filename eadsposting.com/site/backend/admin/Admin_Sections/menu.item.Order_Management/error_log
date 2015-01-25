@@ -1,0 +1,16 @@
+[21-Aug-2014 19:45:34 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/sgarg/public_html/backend/admin/Admin_Sections/menu.item.Order_Management/menu.item.Product_Management.php on line 37
+[21-Aug-2014 19:45:34 UTC] PHP Warning:  Illegal string offset 'Vendor_Product_ID' in /home/sgarg/public_html/backend/admin/Admin_Sections/menu.item.Order_Management/menu.item.Product_Management.php on line 55
+[21-Aug-2014 19:45:34 UTC] PHP Warning:  Illegal string offset 'Vendor' in /home/sgarg/public_html/backend/admin/Admin_Sections/menu.item.Order_Management/menu.item.Product_Management.php on line 56
+[21-Aug-2014 19:45:34 UTC] PHP Warning:  Illegal string offset 'Category' in /home/sgarg/public_html/backend/admin/Admin_Sections/menu.item.Order_Management/menu.item.Product_Management.php on line 57
+[21-Aug-2014 19:45:34 UTC] PHP Warning:  Illegal string offset 'Description' in /home/sgarg/public_html/backend/admin/Admin_Sections/menu.item.Order_Management/menu.item.Product_Management.php on line 58
+[21-Aug-2014 19:45:34 UTC] PHP Warning:  Illegal string offset 'Image_URL' in /home/sgarg/public_html/backend/admin/Admin_Sections/menu.item.Order_Management/menu.item.Product_Management.php on line 59
+[21-Aug-2014 19:45:34 UTC] PHP Warning:  Illegal string offset 'Cost_Price' in /home/sgarg/public_html/backend/admin/Admin_Sections/menu.item.Order_Management/menu.item.Product_Management.php on line 60
+[21-Aug-2014 19:45:34 UTC] PHP Warning:  Illegal string offset 'Sale_Price' in /home/sgarg/public_html/backend/admin/Admin_Sections/menu.item.Order_Management/menu.item.Product_Management.php on line 61
+[21-Aug-2014 19:46:09 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/sgarg/public_html/backend/admin/Admin_Sections/menu.item.Order_Management/menu.item.Product_Management.php on line 37
+[21-Aug-2014 19:46:09 UTC] PHP Warning:  Illegal string offset 'Vendor_Product_ID' in /home/sgarg/public_html/backend/admin/Admin_Sections/menu.item.Order_Management/menu.item.Product_Management.php on line 55
+[21-Aug-2014 19:46:09 UTC] PHP Warning:  Illegal string offset 'Vendor' in /home/sgarg/public_html/backend/admin/Admin_Sections/menu.item.Order_Management/menu.item.Product_Management.php on line 56
+[21-Aug-2014 19:46:09 UTC] PHP Warning:  Illegal string offset 'Category' in /home/sgarg/public_html/backend/admin/Admin_Sections/menu.item.Order_Management/menu.item.Product_Management.php on line 57
+[21-Aug-2014 19:46:09 UTC] PHP Warning:  Illegal string offset 'Description' in /home/sgarg/public_html/backend/admin/Admin_Sections/menu.item.Order_Management/menu.item.Product_Management.php on line 58
+[21-Aug-2014 19:46:09 UTC] PHP Warning:  Illegal string offset 'Image_URL' in /home/sgarg/public_html/backend/admin/Admin_Sections/menu.item.Order_Management/menu.item.Product_Management.php on line 59
+[21-Aug-2014 19:46:09 UTC] PHP Warning:  Illegal string offset 'Cost_Price' in /home/sgarg/public_html/backend/admin/Admin_Sections/menu.item.Order_Management/menu.item.Product_Management.php on line 60
+[21-Aug-2014 19:46:09 UTC] PHP Warning:  Illegal string offset 'Sale_Price' in /home/sgarg/public_html/backend/admin/Admin_Sections/menu.item.Order_Management/menu.item.Product_Management.php on line 61

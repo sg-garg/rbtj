@@ -1,0 +1,42 @@
+<?php
+@mysql_query('insert into '.mysql_prefix.'system_values set name="ipntopoints",value="1000"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="emailcharset",value="iso-8859-1"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="charset",value="iso-8859-1"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="verifyref",value="YES"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="turingcolors",value="200"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="turinglines",value="10"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="frame_size",value="80"');             
+@mysql_query('insert into '.mysql_prefix.'system_values set name="popup_width",value="640"');                 
+@mysql_query('insert into '.mysql_prefix.'system_values set name="popup_height",value="80"');  
+@mysql_query('insert into '.mysql_prefix.'system_values set name="asturingsize",value="30"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="paturingsize",value="40"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="version",value="1"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="pages_dir",value="'.system_value('pages_dir').'"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="scripts_dir",value="'.system_value('scripts_dir').'"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="scripts_url",value="'.system_value('scripts_url').'"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="pages_url",value="'.system_value('pages_url').'"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="runner_url",value="'.system_value('runner_url').'"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="site_name",value="'.$domain.'"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="domain",value="'.$domain.'"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="spamsafety",value="yes"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="paydesc",value="Commissions Payment"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="autosurfcash",value="0"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="iplock",value=".5"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="autosurfwait",value="30"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="inboxexpire",value="15"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="minkey",value="3"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="maxkey",value="99"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="bkwarn",value="24"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="accounting_db",value="'.$mysql_database.'"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="sales_desc",value="Commission for sales"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="accounting_tbl",value="'.mysql_prefix . 'accounting"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="support_email",value="support@'.$domain.'"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="massmail_email",value="rewards@'.$domain.'"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="advertising_email",value="advertising@'.$domain.'"');
+@mysql_query('insert into '.mysql_prefix.'system_values set name="redemption_email",value="advertising@'.$domain.'"');
+@mysql_query("REPLACE INTO `".mysql_prefix."system_values` (`name`, `value`) VALUES ('timezone', '+0.00')");
+@mysql_query("REPLACE INTO `".mysql_prefix."system_values` (`name`, `value`) VALUES ('timeformat', 'm/d/Y H:i')");
+
+@mysql_query("insert into ".mysql_prefix."payment_types set type='PayPal',currency='USD'");
+@mysql_query("insert into ".mysql_prefix."payment_types set type='e-Gold',currency='Gold'"); 
+?>

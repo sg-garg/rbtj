@@ -1,0 +1,45 @@
+/*====================================================*\
+| Custom CSS modifications for CashCrusader 2.09+
+| 
+| You can copy any modifications to admin.custom.css
+| file. You can also make your own modifications, these
+| are only examples. Admin.custom.css file needs to be 
+| created if you have not already.
+\*====================================================*/
+
+/*-------------------------------------*/
+/* Alternative background modification */
+body {
+    background-image: url('background_alt.jpg');
+    background-repeat: repeat-x;
+    background-color: #bababa;
+}
+/*-------------------------------------*/
+
+
+/*-------------------------------*/
+/* Remove centering modification */
+.header_table {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.content_table {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/*-------------------------------*/
+
+
+/*------------------------------*/
+/* Wider reminders modification */
+.reminder {
+    width:200px;
+}
+/*------------------------------*/
+
+/*--------------------------*/
+/* Wider pages modification */
+.content_table {
+    width: 900px;
+}
+/*--------------------------*/
