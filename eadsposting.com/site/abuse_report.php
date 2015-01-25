@@ -1,0 +1,14 @@
+<?php
+include("setup.php");
+include("header.php");
+?>
+<br>
+<center>
+<?php
+action('abuse_report_form');
+?>
+</center>
+<br>
+<?php
+include("footer.php");
+?>
